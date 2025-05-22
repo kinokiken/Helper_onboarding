@@ -45,6 +45,8 @@ jobs:
         run: cp ./app/dist/index.html ./app/dist/404.html
       - name: Setup Pages
         uses: actions/configure-pages@v3
+      - name: artifact
+        uses: actions/upload-artifact@v3
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
