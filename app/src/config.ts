@@ -9,8 +9,8 @@ export default defineConfig({
         {
           media: {
             type: 'video',
-            src: import('./assets/videos/Healfina1.mp4'), 
-            poster: import('./assets/img/healfina therapy 2 var.jpg'), 
+            src: import('./assets/videos/editer1.mp4'), 
+            poster: import('./assets/img/telefon.jpg'), 
             style: 'aspect-ratio: 1024/1024',
           },
           shape: 'rounded',
